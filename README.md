@@ -144,3 +144,62 @@ ansible_connection=winrm
 ansible_winrm_transport=ntlm
 ansible_winrm_server_cert_validation=ignore
 ````
+
+# API Snipe-IT
+###### Opicional
+
+## Introdução
+Este projeto fornece scripts em Python para integrar-se à API do SnipeIT e gerenciar ativos de hardware. Ele inclui funcionalidades para buscar ativos da API e salvá-los em um arquivo CSV, bem como limpar e filtrar os dados extraídos.
+
+## Pré-requisitos
+Python 3.x
+
+Bibliotecas: `requests`, `pandas`
+### Configuração
+Clone o repositório.
+Instale as dependências necessárias:
+````sh
+pip install requests pandas
+````
+### Scripts
+1 - snipe.py
+Este script busca os ativos de hardware do SnipeIT e os salva em um arquivo CSV.
+
+## Configurações da API:
+
+Defina as variáveis `SNIPE_IT_URL` e `API_TOKEN` com a URL da API do SnipeIT e o token de autenticação, respectivamente.
+Funções principais:
+
+`fetch_assets()`: Faz requisições paginadas à API do SnipeIT para buscar todos os ativos de hardware. Em caso de erro, a execução para e uma mensagem de erro é exibida.
+save_to_csv(assets, file_name='ativosSnipe.csv'): Salva os dados dos ativos em um arquivo CSV, mantendo apenas as colunas asset_tag, category e assigned_to.
+Execução:
+
+Execute o script para buscar os ativos e salvá-los em um arquivo CSV:
+````sh
+python snipe.py
+````
+O arquivo resultante será `ativosSnipe.csv`.
+
+2 - cleanCsv.py
+
+Este script limpa e filtra os dados extraídos dos ativos, focando em categorias específicas e removendo o cabeçalho do CSV.
+
+### Funções principais:
+
+`extract_category(category_str)`: Extrai o nome da categoria a partir de uma string de dicionário.
+`extract_username(assigned_to_str)`: Extrai o nome de usuário do responsável a partir de uma string de dicionário.
+`filter_categories(category)`: Filtra as linhas com categorias específicas, neste caso, Notebooks e Desktop.
+## Execução:
+
+Execute o script para limpar e filtrar os dados do arquivo CSV gerado pelo script anterior:
+
+````sh
+python cleanCsv.py
+````
+O arquivo resultante será `dados.csv`, contendo apenas as colunas asset_tag, category e assigned_to.
+## Conclusão
+Esses scripts automatizam o processo de extração, limpeza e filtragem de dados de ativos do SnipeIT, facilitando a gestão dos ativos de hardware. Ajuste as configurações conforme necessário e execute os scripts para obter os resultados desejados.
+
+
+
+

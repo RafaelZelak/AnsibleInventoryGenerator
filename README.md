@@ -121,10 +121,11 @@ Username_Hostname ansible_host=Hostname
 
 No caso o Hostname pode ser o IP
 
-Caso queira desvincular o `app.py` do `ad.py` basta remover a seguinte linha logo no começo do aruquivo `app.py`
+Caso queira desvincular o `app.py` do `ad.py` basta remover as seguintes linhas logo no começo do aruquivo `app.py`
 
 ```python
-os.system('python ad.py')
+    print(f'Iniciando Conexão com ActiveDirectory\n')
+    os.system('python ad.py')
 ````
 
 E para adicionar no Ansible, basta ao gerar o `inventory.ini` padronizado com Winrm para rodar em hosts Windows
@@ -200,6 +201,21 @@ O arquivo resultante será `dados.csv`, contendo apenas as colunas asset_tag, ca
 ## Conclusão
 Esses scripts automatizam o processo de extração, limpeza e filtragem de dados de ativos do SnipeIT, facilitando a gestão dos ativos de hardware. Ajuste as configurações conforme necessário e execute os scripts para obter os resultados desejados.
 
+Caso queira desvincular o `app.py` do `snipe.py` e `cleanCsv.py` (arquivos relacionados a API com o Snipe-IT) basta remover as seguintes linhas logo no começo do aruquivo `app.py`
 
+```python
+    print(f'Iniciando Conexão via API com o SnipeIT\n')
+    os.system('python snipe.py')
+    print(f'Organizando Resultados....\n')
+    os.system('python cleanCsv.py')
+    print(f'\n------ Todos os arquivos e APIs obtiveram exito! ------\n')
+````
 
+#AVISO
+
+Ao usar o código completo <- LDAP User Exporter + API Snipe-IT
+
+Todos os arquivos e pastas serão gerados automaticamente!
+
+###### Seu Snipe-IT pode ter campos diferentes do que estou utilizando, então modifique-os no código
 

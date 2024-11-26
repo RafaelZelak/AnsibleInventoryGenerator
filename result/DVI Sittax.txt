@@ -1,0 +1,4 @@
+MarlonMarques_ST0015 ansible_host=ST0015
+HamiltonRizzardi_ST0024 ansible_host=ST0024
+JaquelineGonçalvesdeAndradePereira_ST0148 ansible_host=ST0148
+DanielTararan_ST0052 ansible_host=ST0052

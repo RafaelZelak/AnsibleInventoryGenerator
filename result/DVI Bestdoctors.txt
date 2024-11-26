@@ -1,0 +1,1 @@
+PauloTumaszJunior_ST0177 ansible_host=ST0177

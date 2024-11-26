@@ -1,0 +1,11 @@
+JayanaBarbosa_ST0025 ansible_host=ST0025
+GuilhermeCorreiaLoureiro_ST0206 ansible_host=ST0206
+ThonneCleiton_ST0130 ansible_host=ST0130
+LuizHenriqueDenkil_ST0009 ansible_host=ST0009
+MatheusSouzaMartins_ST0322 ansible_host=ST0322
+NathanMorais_ST0127 ansible_host=ST0127
+EmersonMoraesdosSantosFilho_ST0268 ansible_host=ST0268
+RaulCastelnou_ST0072 ansible_host=ST0072
+ThomasOkubo_ST0330 ansible_host=ST0330
+LeonardoSenaMachado_ST0228 ansible_host=ST0228
+VictorCals_ST0004 ansible_host=ST0004

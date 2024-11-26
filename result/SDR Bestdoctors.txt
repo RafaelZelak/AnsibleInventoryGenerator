@@ -1,0 +1,1 @@
+ClementeRenanLezdaSilva_ST0125 ansible_host=ST0125

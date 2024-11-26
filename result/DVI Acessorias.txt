@@ -1,0 +1,6 @@
+MarcosRaposo_ST0200 ansible_host=ST0200
+MatheusAlves_ST0006 ansible_host=ST0006
+KauanRocha_ST0195 ansible_host=ST0195
+LuisFernandoNascimento_ST0010 ansible_host=ST0010
+IgorSocherBichibichi_ST0101 ansible_host=ST0101
+SadrackGarciaLima_ST0165 ansible_host=ST0165

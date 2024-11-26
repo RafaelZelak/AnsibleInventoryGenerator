@@ -1,0 +1,5 @@
+LeandroCaetanoPivovar_ST0283 ansible_host=ST0283
+MuriloViniciusSantosCamargo_ST0310 ansible_host=ST0310
+GeovaniEmanuelPontesdosSantos_ST0292 ansible_host=ST0292
+DiegoDeAlmeidaCunha_ST0115 ansible_host=ST0115
+WilliamPereira_ST0291 ansible_host=ST0291

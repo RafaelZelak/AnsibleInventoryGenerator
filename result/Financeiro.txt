@@ -1,0 +1,3 @@
+VanessaTrindade_ST0011 ansible_host=ST0011
+RodrigoMoutinhoBuiar_ST0016 ansible_host=ST0016
+RuanHenriqueBatistadosSantos_ST0320 ansible_host=ST0320

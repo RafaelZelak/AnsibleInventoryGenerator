@@ -1,0 +1,6 @@
+MatheusErrerodoCarmoBreder_ST0154 ansible_host=ST0154
+FelipeMacedo_ST0107 ansible_host=ST0107
+FelipeMunhoz_ST0160 ansible_host=ST0160
+RafaelHenrique_ST0040 ansible_host=ST0040
+LeonardoGarcezOliveiraHolzmann_ST0044 ansible_host=ST0044
+MariaGabrielaRodrigues_ST0202 ansible_host=ST0202

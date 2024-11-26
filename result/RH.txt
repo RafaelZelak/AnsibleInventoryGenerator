@@ -1,0 +1,3 @@
+CamilaTrindade_ST0012 ansible_host=ST0012
+IsisFraiz_ST0136 ansible_host=ST0136
+AnaCalixto_ST0208 ansible_host=ST0208

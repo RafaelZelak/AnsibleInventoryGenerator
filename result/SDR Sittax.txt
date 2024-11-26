@@ -1,0 +1,7 @@
+AleirSanchesJunior_ST0002 ansible_host=ST0002
+PatrickFreitas_ST0080 ansible_host=ST0080
+EsterCallegaro_ST0089 ansible_host=ST0089
+IsadoraDaSilvaValerio_ST0184 ansible_host=ST0184
+MuriloLucasMazur_ST0187 ansible_host=ST0187
+MatheusIarek_ST0032 ansible_host=ST0032
+GabrieldaSilvaBenitez_ST0231 ansible_host=ST0231

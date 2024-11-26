@@ -1,0 +1,7 @@
+MateusdaSilvaMacieldeLima_ST0005 ansible_host=ST0005
+HenriqueMakuch_ST0224 ansible_host=ST0224
+LeandroMarcosFerreiradosSantos_ST0319 ansible_host=ST0319
+GustavoCoelho_ST0008 ansible_host=ST0008
+PauloCesardeSouzaFrancoFilho_ST0018 ansible_host=ST0018
+GabrielRangel_ST0267 ansible_host=ST0267
+LeonardoBittencourt_ST0079 ansible_host=ST0079

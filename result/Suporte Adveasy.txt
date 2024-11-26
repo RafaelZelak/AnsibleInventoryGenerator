@@ -1,0 +1,1 @@
+GabrielMoura_ST0192 ansible_host=ST0192

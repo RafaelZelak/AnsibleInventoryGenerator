@@ -1,0 +1,2 @@
+LaizeSantos_ST0303 ansible_host=ST0303
+MarceloTozin_ST0290 ansible_host=ST0290

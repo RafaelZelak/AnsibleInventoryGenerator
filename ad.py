@@ -2,10 +2,10 @@ import csv
 from ldap3 import Connection, Server, ALL_ATTRIBUTES, SUBTREE
 
 try:
-    server = Server('dominio.intranet', get_info=ALL_ATTRIBUTES)
-    con = Connection(server, user='userAdmin@dominio', password='senhaUserAdmin', auto_bind=True)
+    server = Server('digitalup.intranet', get_info=ALL_ATTRIBUTES)
+    con = Connection(server, user='administrator@digitalup.intranet', password='&ajhsRlm88s!@SF', auto_bind=True)
 
-    search_base = 'DC=dominio,DC=intranet'
+    search_base = 'DC=digitalup,DC=intranet'
     search_filter = '(objectClass=organizationalUnit)'
     attributes = ['distinguishedName', 'name']
 

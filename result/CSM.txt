@@ -1,0 +1,3 @@
+GylberDhein_ST0003 ansible_host=ST0003
+CeltonRocha_ST0041 ansible_host=ST0041
+ThiagoCosta_ST0001 ansible_host=ST0001
